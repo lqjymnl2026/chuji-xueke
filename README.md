@@ -40,3 +40,8 @@ python3 -m http.server 8777
 - 朗讀：瀏覽器 TTS（中文語音，偏好台灣/香港腔）
 - 進度：localStorage
 - 可部署到 GitHub Pages / 阿里雲靜態空間
+
+## 🌍 线上地址（GitHub Pages）
+**https://lqjymnl2026.github.io/chuji-xueke/**
+
+手机/平板/电脑都能访问，进度保存在各自浏览器里。
