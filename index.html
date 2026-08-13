@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>學課互動樂園</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="hero">
+    <span class="float" style="top:16px;left:12px;animation-delay:.2s">☁️</span>
+    <span class="float" style="top:52px;right:16px;animation-delay:.8s">⭐</span>
+    <span class="float" style="bottom:24px;left:26px;animation-delay:1.4s">☁️</span>
+    <span class="float" style="bottom:40px;right:40px;animation-delay:.5s">🕊️</span>
+    <h1>🌈 學課互動樂園</h1>
+    <p class="sub">初級學課 ＋ 高級學課 · 聽故事・背存心節・玩遊戲</p>
+    <div class="trophy">🏆 我的星星：<b id="starTotal">0</b> / <span id="starMax">0</span></div>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-card">
+      <span>🚀</span>
+      <div class="bar"><i id="barFill"></i></div>
+      <b id="pct">0%</b>
+    </div>
+  </div>
+
+  <div class="track-switch">
+    <button class="track-btn on" data-track="chuji">🧸 初級學課</button>
+    <button class="track-btn" data-track="gaoji">📖 高級學課</button>
+    <a class="track-btn paint" href="coloring.html">🎨 塗色樂園</a>
+  </div>
+
+  <div class="quarters">
+    <h2 id="qh">📚 選擇學季</h2>
+    <div class="quarter-tabs" id="qtabs"></div>
+  </div>
+
+  <div class="lessons" id="lessons"></div>
+
+  <div class="footer">
+    學課互動樂園 · 安息日學資源<br>
+    每課完成 故事 ⭐ 存心節 ⭐ 問答/配對 ⭐，集滿星星好棒棒！
+  </div>
+
+<script src="data/all_lessons.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
