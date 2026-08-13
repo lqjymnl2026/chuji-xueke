@@ -193,3 +193,27 @@ button{ font-family:inherit; cursor:pointer; border:none; background:none; }
 .mcard.bad{ border-color:#ff7eb3; background:#fff0f5; animation:shake .4s; }
 .mcard.dim{ opacity:.5; }
 .match-lines{ position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; overflow:visible; z-index:5; }
+
+/* ---------- 语音设置 ---------- */
+.voice-fab{
+  position:fixed; right:18px; bottom:24px; width:58px; height:58px; border-radius:50%;
+  background:linear-gradient(135deg,var(--purple),var(--pink)); color:#fff; font-size:26px;
+  box-shadow:0 8px 22px rgba(127,90,240,.4); z-index:90; display:flex; align-items:center; justify-content:center;
+}
+.voice-panel{
+  position:fixed; left:50%; bottom:96px; transform:translateX(-50%) translateY(20px);
+  width:min(340px, 92vw); background:#fff; border-radius:20px; box-shadow:0 16px 40px rgba(60,40,120,.25);
+  z-index:95; padding:16px; opacity:0; pointer-events:none; transition:.25s;
+}
+.voice-panel.show{ opacity:1; pointer-events:auto; transform:translateX(-50%) translateY(0); }
+.voice-head{ display:flex; align-items:center; justify-content:space-between; font-weight:900; font-size:15px; margin-bottom:10px; }
+.voice-head button{ font-size:14px; color:var(--sub); font-weight:800; padding:4px 8px; }
+.vopt{
+  display:block; width:100%; text-align:left; padding:11px 12px; border-radius:13px;
+  border:2px solid #eee6ff; background:#fdfaff; margin-bottom:8px; transition:.2s;
+}
+.vopt b{ display:block; font-size:14px; color:var(--ink); }
+.vopt span{ display:block; font-size:12px; color:var(--sub); margin-top:2px; }
+.vopt.on{ border-color:var(--purple); background:#f0eaff; }
+.vopt.on b{ color:var(--purple); }
+.voice-status{ text-align:center; font-size:12px; color:var(--sub); margin-top:6px; }
