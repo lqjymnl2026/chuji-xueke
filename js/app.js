@@ -49,24 +49,86 @@
     }
   }
 
-  /* ---------- 朗讀 TTS ---------- */
+  /* ---------- 朗讀：Edge 神經語音 + 瀏覽器兜底 ---------- */
+  var VOICE_KEY = "xueke_voice_v1";
   var voices = [];
   function loadVoices(){ voices = window.speechSynthesis ? speechSynthesis.getVoices() : []; }
   if(window.speechSynthesis){
     loadVoices();
     speechSynthesis.onvoiceschanged = loadVoices;
   }
+  function getVoicePref(){
+    try { return localStorage.getItem(VOICE_KEY) || "auto"; } catch(e){ return "auto"; }
+  }
+  function setVoicePref(v){ try { localStorage.setItem(VOICE_KEY, v); } catch(e){} }
+
+  var VOICE_OPTIONS = [
+    {id:"auto",     name:"✨ 自動（推薦）", desc:"根據瀏覽器自動選最好的中文聲音"},
+    {id:"xiaoxiao", name:"👩 曉曉（溫柔女聲）", desc:"Edge 神經語音 zh-CN-XiaoxiaoNeural"},
+    {id:"yunxi",    name:"🧑 雲希（陽光男聲）", desc:"Edge 神經語音 zh-CN-YunxiNeural"},
+    {id:"xiaoyi",   name:"🧒 曉伊（卡通活潑）", desc:"Edge 神經語音 zh-CN-XiaoyiNeural"},
+  ];
+  function voiceServerName(id){
+    var m = {auto:"xiaoxiao", xiaoxiao:"xiaoxiao", yunxi:"yunxi", xiaoyi:"xiaoyi"};
+    return m[id] || "xiaoxiao";
+  }
+
+  /* 服务器 TTS（本地预览 node server.js 才有）*/
+  var serverTTS = null; // null=未探測, true/false
+  function probeServerTTS(){
+    if(serverTTS !== null) return Promise.resolve(serverTTS);
+    return fetch("/tts?text=%E6%B5%8B&voice=xiaoxiao")
+      .then(function(r){ serverTTS = r.ok; return serverTTS; })
+      .catch(function(){ serverTTS = false; return false; });
+  }
+
+  var audioEl = null;
+  function stopSpeak(){
+    if(window.speechSynthesis) speechSynthesis.cancel();
+    if(audioEl){ audioEl.pause(); audioEl = null; }
+  }
+
+  function speakTextViaServer(text, onend){
+    var name = voiceServerName(getVoicePref());
+    var url = "/tts?text=" + encodeURIComponent(text.slice(0, 800)) + "&voice=" + name;
+    audioEl = new Audio();
+    audioEl.id = "ttsAudio";
+    audioEl.src = url;
+    audioEl.style.display = "none";
+    if(!document.getElementById("ttsAudio")) document.body.appendChild(audioEl);
+    audioEl.onended = function(){ if(onend) onend(); };
+    audioEl.onerror = function(){ serverTTS = false; if(onend) onend(); };
+    audioEl.play().catch(function(){ serverTTS = false; if(onend) onend(); });
+  }
+
   function pickVoice(){
+    var pref = getVoicePref();
     var zh = voices.filter(function(v){ return /zh|cmn|Chinese/i.test(v.lang + " " + v.name); });
+    function find(pat){
+      for(var i=0;i<zh.length;i++){
+        if(pat.test(zh[i].name) || pat.test(zh[i].lang)) return zh[i];
+      }
+      return null;
+    }
+    var targets = {
+      xiaoxiao: /xiaoxiao|晓晓|曉曉/i,
+      yunxi: /yunxi|云希|雲希/i,
+      xiaoyi: /xiaoyi|晓伊|曉伊/i,
+    };
+    if(pref !== "auto" && targets[pref]){
+      var v = find(targets[pref]);
+      if(v) return v;
+    }
     var order = ["zh-TW","zh-HK","zh-CN","zh"];
-    for(var i=0;i<order.length;i++){
+    for(var i2=0;i2<order.length;i2++){
       for(var j=0;j<zh.length;j++){
-        if(zh[j].lang && zh[j].lang.toLowerCase().indexOf(order[i].toLowerCase()) === 0) return zh[j];
+        if(zh[j].lang && zh[j].lang.toLowerCase().indexOf(order[i2].toLowerCase()) === 0) return zh[j];
       }
     }
     return zh[0] || null;
   }
-  function speak(text, onend){
+
+  function synthSpeak(text, onend){
     if(!window.speechSynthesis){ if(onend) onend(); return; }
     speechSynthesis.cancel();
     var u = new SpeechSynthesisUtterance(text);
@@ -77,7 +139,50 @@
     if(onend) u.onend = onend;
     speechSynthesis.speak(u);
   }
-  function stopSpeak(){ if(window.speechSynthesis) speechSynthesis.cancel(); }
+  function speak(text, onend){
+    if(!window.speechSynthesis && !audioEl){ if(onend) onend(); return; }
+    if(serverTTS === true){ speakTextViaServer(text, onend); return; }
+    if(serverTTS === null){
+      probeServerTTS().then(function(ok){
+        if(ok){ speakTextViaServer(text, onend); return; }
+        synthSpeak(text, onend);
+      });
+      return;
+    }
+    synthSpeak(text, onend);
+  }
+
+  /* 语音设置面板 */
+  function initVoiceUI(){
+    var fab = document.getElementById("voiceFab");
+    if(!fab) return;
+    var panel = document.getElementById("voicePanel");
+    fab.addEventListener("click", function(){ panel.classList.toggle("show"); });
+    var list = document.getElementById("voiceList");
+    list.innerHTML = VOICE_OPTIONS.map(function(o){
+      return '<button class="vopt" data-v="' + o.id + '"><b>' + o.name + '</b><span>' + o.desc + '</span></button>';
+    }).join("");
+    function refresh(){
+      var cur = getVoicePref();
+      list.querySelectorAll(".vopt").forEach(function(b){
+        b.classList.toggle("on", b.getAttribute("data-v") === cur);
+      });
+    }
+    list.addEventListener("click", function(e){
+      var b = e.target.closest(".vopt"); if(!b) return;
+      setVoicePref(b.getAttribute("data-v"));
+      refresh();
+      toast("🎙️ 語音已切換：" + (b.querySelector("b")||{}).textContent || "");
+    });
+    refresh();
+    document.getElementById("voiceClose").addEventListener("click", function(){ panel.classList.remove("show"); });
+    panel.addEventListener("click", function(e){ if(e.target === panel) panel.classList.remove("show"); });
+    // 显示服务器/浏览器引擎状态
+    probeServerTTS().then(function(ok){
+      var st = document.getElementById("voiceStatus");
+      if(st) st.textContent = ok ? "🔊 引擎：Edge 神經語音（伺服器）" : "🔊 引擎：瀏覽器語音（Edge 開啟時可選曉曉/雲希）";
+    });
+  }
 
   /* ================= 首頁 ================= */
   function renderHome(){
@@ -381,6 +486,7 @@
   function init(){
     if(document.getElementById("lessons")) renderHome();
     if(document.getElementById("ltop")) renderLesson();
+    initVoiceUI();
   }
   if(document.readyState === "loading"){
     document.addEventListener("DOMContentLoaded", init);
