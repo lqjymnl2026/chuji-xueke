@@ -1,8 +1,137 @@
 window.LESSONS = [
  {
-  "id": "A2-1",
+  "id": "C-A1-1",
   "track": "chuji",
   "no": 1,
+  "quarter": "A年第1季",
+  "qcode": "A1",
+  "qemoji": "🌅",
+  "qcolor": "#ffd166",
+  "lesson_no": "一",
+  "title": "上帝創造世界",
+  "emoji": "🌍",
+  "jingwen": "創世記1：1-2：3；參考資料《先祖與先知》第2章",
+  "cunxin": "「上帝所造的每一樣都是好的。」（創世記1：31）",
+  "xinxi": "上帝所創造的盡都美好，因為祂愛我們。",
+  "summary": "",
+  "story": [
+   "很久很久以前，世界還沒有光，黑黑的、空空的。上帝說：「要有光！」光就出現了！上帝看光是好的。",
+   "第二天，上帝造了藍藍的天空和白白的雲。第三天，上帝造了地土，長出青青的草、美麗的花和高大的樹。",
+   "第四天，上帝造了太陽、月亮和閃閃發亮的星星。第五天和第六天，上帝造了小鳥、小魚，還有好多好多動物。",
+   "上帝看著祂所造的一切，說：「這世界甚好！」因為上帝愛我們，祂把美麗的世界送給我們。"
+  ],
+  "questions": [
+   "上帝說「要有什麼」，光就出現了？",
+   "上帝看祂所造的世界，說了什麼？"
+  ],
+  "answers": [
+   1,
+   1
+  ],
+  "options": [
+   [
+    "火",
+    "光",
+    "聲音"
+   ],
+   [
+    "不好看",
+    "這世界甚好",
+    "再重做一次"
+   ]
+  ],
+  "action": "今天到戶外看一看上帝造的花、樹和天空，並說：「謝謝上帝！」"
+ },
+ {
+  "id": "C-A1-2",
+  "track": "chuji",
+  "no": 2,
+  "quarter": "A年第1季",
+  "qcode": "A1",
+  "qemoji": "🌅",
+  "qcolor": "#ffd166",
+  "lesson_no": "二",
+  "title": "挪亞的大船",
+  "emoji": "⛵",
+  "jingwen": "創世記6-9；參考資料《先祖與先知》第7-8章",
+  "cunxin": "「我要歌唱耶和華的慈愛，直到永遠。」（詩篇89：1）",
+  "xinxi": "我感謝上帝眷顧我。",
+  "summary": "",
+  "story": [
+   "很久以前，世界上的人做了好多壞事。但是挪亞是上帝特別的朋友，他愛上帝、聽上帝的話。",
+   "上帝對挪亞說：「我要讓大雨降下來，大水會淹沒大地。你要造一艘好大好大的船，你和你的家人會安全。」",
+   "挪亞聽話，努力造船。他選了好木頭，鋸呀鋸、釘呀釘。動物們也來了，一對一對走上大船。",
+   "大雨下了好多天，挪亞一家在船上很安全。雨停了，彩虹出現在天空，上帝說：「這是我的應許，我不再用洪水毀滅世界。」挪亞感謝上帝眷顧他。"
+  ],
+  "questions": [
+   "誰是上帝特別的朋友？",
+   "大雨過後，天上出現了什麼，是上帝的應許？"
+  ],
+  "answers": [
+   1,
+   1
+  ],
+  "options": [
+   [
+    "亞當",
+    "挪亞",
+    "大衛"
+   ],
+   [
+    "太陽",
+    "彩虹",
+    "月亮"
+   ]
+  ],
+  "action": "和家人一起謝謝上帝眷顧我們，像挪亞一樣聽上帝的話。"
+ },
+ {
+  "id": "C-A1-3",
+  "track": "chuji",
+  "no": 3,
+  "quarter": "A年第1季",
+  "qcode": "A1",
+  "qemoji": "🌅",
+  "qcolor": "#ffd166",
+  "lesson_no": "三",
+  "title": "撒拉的嬰孩",
+  "emoji": "👶",
+  "jingwen": "創世記18：1-16；21：1-8；參考資料《先祖與先知》第122頁",
+  "cunxin": "「我要歌唱耶和華的慈愛，直到永遠。」（詩篇89：1）",
+  "xinxi": "我感謝上帝眷顧我。",
+  "summary": "",
+  "story": [
+   "撒拉好想有一個自己的小嬰孩，可是她年紀大了，覺得不可能。",
+   "有一天，三位客人來到亞伯拉罕的帳棚。亞伯拉罕趕快請他們休息，撒拉烤了香香的餅請客人吃。",
+   "客人說：「我再來的時候，你的妻子撒拉會生一個男孩！」撒拉在帳棚裡聽到了，笑了出來。",
+   "上帝說：「在上帝豈有難成的事嗎？」真的！後來撒拉生了一個男孩，他們給他取名「以撒」，意思就是「他笑了」。上帝賜給撒拉一個小嬰孩，祂也眷顧我們每一個人。"
+  ],
+  "questions": [
+   "撒拉生了男孩，給他取名什麼？",
+   "以撒的名字是什麼意思？"
+  ],
+  "answers": [
+   0,
+   1
+  ],
+  "options": [
+   [
+    "以撒",
+    "約瑟",
+    "摩西"
+   ],
+   [
+    "他哭了",
+    "他笑了",
+    "他很乖"
+   ]
+  ],
+  "action": "對家人說「我愛你」，像亞伯拉罕和撒拉愛他們的家人一樣。"
+ },
+ {
+  "id": "C-A2-1",
+  "track": "chuji",
+  "no": 4,
   "quarter": "A年第2季",
   "qcode": "A2",
   "qemoji": "🌈",
@@ -43,9 +172,9 @@ window.LESSONS = [
   "action": "今天對朋友說一句溫暖的話，或幫朋友一個小忙。"
  },
  {
-  "id": "A2-2",
+  "id": "C-A2-2",
   "track": "chuji",
-  "no": 2,
+  "no": 5,
   "quarter": "A年第2季",
   "qcode": "A2",
   "qemoji": "🌈",
@@ -86,9 +215,9 @@ window.LESSONS = [
   "action": "這個安息日，出發去教堂前，幫家人準備好出門的東西。"
  },
  {
-  "id": "A2-3",
+  "id": "C-A2-3",
   "track": "chuji",
-  "no": 3,
+  "no": 6,
   "quarter": "A年第2季",
   "qcode": "A2",
   "qemoji": "🌈",
@@ -129,9 +258,9 @@ window.LESSONS = [
   "action": "今天把點心或玩具和弟弟妹妹或朋友一起分享。"
  },
  {
-  "id": "A3-1",
+  "id": "C-A3-1",
   "track": "chuji",
-  "no": 4,
+  "no": 7,
   "quarter": "A年第3季",
   "qcode": "A3",
   "qemoji": "🌞",
@@ -172,9 +301,9 @@ window.LESSONS = [
   "action": "今天在家裡幫爸爸媽媽做一件小事，做個快樂的小幫手。"
  },
  {
-  "id": "A3-2",
+  "id": "C-A3-2",
   "track": "chuji",
-  "no": 5,
+  "no": 8,
   "quarter": "A年第3季",
   "qcode": "A3",
   "qemoji": "🌞",
@@ -215,9 +344,9 @@ window.LESSONS = [
   "action": "吃飯前，跟爸爸媽媽一起謝謝上帝供應我們食物。"
  },
  {
-  "id": "A3-3",
+  "id": "C-A3-3",
   "track": "chuji",
-  "no": 6,
+  "no": 9,
   "quarter": "A年第3季",
   "qcode": "A3",
   "qemoji": "🌞",
@@ -258,9 +387,9 @@ window.LESSONS = [
   "action": "今天對別人做一件仁慈的事，比如分享、說好話、幫助人。"
  },
  {
-  "id": "A4-1",
+  "id": "C-A4-1",
   "track": "chuji",
-  "no": 7,
+  "no": 10,
   "quarter": "A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -301,9 +430,9 @@ window.LESSONS = [
   "action": "為生病或難過的人禱告，告訴耶穌祂的愛。"
  },
  {
-  "id": "A4-2",
+  "id": "C-A4-2",
   "track": "chuji",
-  "no": 8,
+  "no": 11,
   "quarter": "A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -344,9 +473,9 @@ window.LESSONS = [
   "action": "當你覺得害怕或難過時，記得耶穌永遠愛你、保護你。"
  },
  {
-  "id": "A4-3",
+  "id": "C-A4-3",
   "track": "chuji",
-  "no": 9,
+  "no": 12,
   "quarter": "A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -387,9 +516,9 @@ window.LESSONS = [
   "action": "和爸爸媽媽一起謝謝耶穌，祂是上帝給我們最好的禮物。"
  },
  {
-  "id": "B1-1",
+  "id": "C-B1-1",
   "track": "chuji",
-  "no": 10,
+  "no": 13,
   "quarter": "B年第1季",
   "qcode": "B1",
   "qemoji": "🌱",
@@ -430,9 +559,9 @@ window.LESSONS = [
   "action": "今天馬上聽爸爸媽媽的話，並幫他們做一件小事。"
  },
  {
-  "id": "B1-2",
+  "id": "C-B1-2",
   "track": "chuji",
-  "no": 11,
+  "no": 14,
   "quarter": "B年第1季",
   "qcode": "B1",
   "qemoji": "🌱",
@@ -474,9 +603,9 @@ window.LESSONS = [
   "action": "對自己說：耶穌永遠愛我。今天也把愛分享給別人。"
  },
  {
-  "id": "B1-3",
+  "id": "C-B1-3",
   "track": "chuji",
-  "no": 12,
+  "no": 15,
   "quarter": "B年第1季",
   "qcode": "B1",
   "qemoji": "🌱",
@@ -517,9 +646,9 @@ window.LESSONS = [
   "action": "今天唱一首讚美耶穌的歌，開開心心大聲唱！"
  },
  {
-  "id": "B2-1",
+  "id": "C-B2-1",
   "track": "chuji",
-  "no": 13,
+  "no": 16,
   "quarter": "B年第2季",
   "qcode": "B2",
   "qemoji": "🐬",
@@ -560,9 +689,9 @@ window.LESSONS = [
   "action": "今天對朋友說一句溫暖的話，或幫朋友一個小忙。"
  },
  {
-  "id": "B2-2",
+  "id": "C-B2-2",
   "track": "chuji",
-  "no": 14,
+  "no": 17,
   "quarter": "B年第2季",
   "qcode": "B2",
   "qemoji": "🐬",
@@ -603,9 +732,9 @@ window.LESSONS = [
   "action": "這個安息日，出發去教堂前，幫家人準備好出門的東西。"
  },
  {
-  "id": "B2-3",
+  "id": "C-B2-3",
   "track": "chuji",
-  "no": 15,
+  "no": 18,
   "quarter": "B年第2季",
   "qcode": "B2",
   "qemoji": "🐬",
@@ -646,9 +775,9 @@ window.LESSONS = [
   "action": "今天把點心或玩具和弟弟妹妹或朋友一起分享。"
  },
  {
-  "id": "B3-1",
+  "id": "C-B3-1",
   "track": "chuji",
-  "no": 16,
+  "no": 19,
   "quarter": "B年第3季",
   "qcode": "B3",
   "qemoji": "🍁",
@@ -689,9 +818,9 @@ window.LESSONS = [
   "action": "和家人一起做一件事：一起禱告、一起整理房間、一起幫助人。"
  },
  {
-  "id": "B3-2",
+  "id": "C-B3-2",
   "track": "chuji",
-  "no": 17,
+  "no": 20,
   "quarter": "B年第3季",
   "qcode": "B3",
   "qemoji": "🍁",
@@ -732,9 +861,9 @@ window.LESSONS = [
   "action": "今天跟朋友分享一個關於耶穌的好消息，或為朋友做一件好事。"
  },
  {
-  "id": "B3-3",
+  "id": "C-B3-3",
   "track": "chuji",
-  "no": 18,
+  "no": 21,
   "quarter": "B年第3季",
   "qcode": "B3",
   "qemoji": "🍁",
@@ -775,9 +904,9 @@ window.LESSONS = [
   "action": "睡前跟爸爸媽媽說：「謝謝上帝與我同在。」"
  },
  {
-  "id": "B4-1",
+  "id": "C-B4-1",
   "track": "chuji",
-  "no": 19,
+  "no": 22,
   "quarter": "B年第4季",
   "qcode": "B4",
   "qemoji": "🎄",
@@ -818,9 +947,9 @@ window.LESSONS = [
   "action": "今天留意身邊需要幫助的人，並主動幫助他。"
  },
  {
-  "id": "B4-2",
+  "id": "C-B4-2",
   "track": "chuji",
-  "no": 20,
+  "no": 23,
   "quarter": "B年第4季",
   "qcode": "B4",
   "qemoji": "🎄",
@@ -861,9 +990,9 @@ window.LESSONS = [
   "action": "今天對一個人說耶穌愛他，或講一個耶穌的故事給他聽。"
  },
  {
-  "id": "B4-3",
+  "id": "C-B4-3",
   "track": "chuji",
-  "no": 21,
+  "no": 24,
   "quarter": "B年第4季",
   "qcode": "B4",
   "qemoji": "🎄",
@@ -904,9 +1033,9 @@ window.LESSONS = [
   "action": "和爸爸媽媽一起說：「耶穌喜歡與我們同在，謝謝耶穌！」"
  },
  {
-  "id": "A1-1",
+  "id": "G-A1-1",
   "track": "gaoji",
-  "no": 22,
+  "no": 25,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -927,9 +1056,9 @@ window.LESSONS = [
   "action": "参考资料上帝在六日之内创造了世界，第七日安息。"
  },
  {
-  "id": "A1-2",
+  "id": "G-A1-2",
   "track": "gaoji",
-  "no": 23,
+  "no": 26,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -950,9 +1079,9 @@ window.LESSONS = [
   "action": "参考资料《先祖与先知》第15页上帝按照祂的形像，创造了男人和女人，来管理大地、海洋和天空。"
  },
  {
-  "id": "A1-3",
+  "id": "G-A1-3",
   "track": "gaoji",
-  "no": 24,
+  "no": 27,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -973,9 +1102,9 @@ window.LESSONS = [
   "action": "参考资料《先祖与先知》第16、17，82-84页上帝在六天內创造了世界，第七天休息，祂将这一天定为圣日。"
  },
  {
-  "id": "A1-4",
+  "id": "G-A1-4",
   "track": "gaoji",
-  "no": 25,
+  "no": 28,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -996,9 +1125,9 @@ window.LESSONS = [
   "action": "参考资料《先祖与先知》第18-27页上帝创造了亚当和夏娃，用爱的礼物环绕他们。"
  },
  {
-  "id": "A1-5",
+  "id": "G-A1-5",
   "track": "gaoji",
-  "no": 26,
+  "no": 29,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1019,9 +1148,9 @@ window.LESSONS = [
   "action": "参考资料《先祖与先知》第221-230页上帝赐福给在埃及的以色列民。"
  },
  {
-  "id": "A1-6",
+  "id": "G-A1-6",
   "track": "gaoji",
-  "no": 27,
+  "no": 30,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1042,9 +1171,9 @@ window.LESSONS = [
   "action": "参考资料《先祖与先知》第230-235页摩西在沙漠中以牧羊为生，过了四十年之后，有一天，他看到荊棘丛被火燃烧，却没有烧毀。当他前去察看的时候，上帝对他说话。祂叫摩西回到埃及去，带领以色列人脱离奴隶生涯。摩西胆怯迟疑。上帝应许摩西，祂会与他同存心节在，并且帮助他完成这个使命。“当把你脚上的鞋脱下"
  },
  {
-  "id": "A1-7",
+  "id": "G-A1-7",
   "track": "gaoji",
-  "no": 28,
+  "no": 31,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1065,9 +1194,9 @@ window.LESSONS = [
   "action": "参考资料《先祖与先摩西和亚伦九次敦促法老放以色列人走。"
  },
  {
-  "id": "A1-8",
+  "id": "G-A1-8",
   "track": "gaoji",
-  "no": 29,
+  "no": 32,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1088,9 +1217,9 @@ window.LESSONS = [
   "action": "参考资料《先祖与先法老拒绝听从上帝的警告。"
  },
  {
-  "id": "A1-9",
+  "id": "G-A1-9",
   "track": "gaoji",
-  "no": 30,
+  "no": 33,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1111,9 +1240,9 @@ window.LESSONS = [
   "action": "参考资料《先祖与先在十灾当中，在救他们摆脱埃及的追兵时，还有在赐给知》第275-277页他们吗哪的事上，以色列人体验到了上帝的眷顾和保护。现在他们又面临另一个信心的试炼：没有水喝。这时以色列人没有转向上帝，将他们的需要带到上帝面前，反而向摩西发存心节怨言。上帝原谅他们的软弱，依然供应他们一切的需要。“人若渴了，可以到我"
  },
  {
-  "id": "A1-10",
+  "id": "G-A1-10",
   "track": "gaoji",
-  "no": 31,
+  "no": 34,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1134,9 +1263,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A1-11",
+  "id": "G-A1-11",
   "track": "gaoji",
-  "no": 32,
+  "no": 35,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1157,9 +1286,9 @@ window.LESSONS = [
   "action": "参考资料《历代愿望》耶稣看到马太坐在他的收税亭里面，就对他说：“来跟第224-227页从我。"
  },
  {
-  "id": "A1-12",
+  "id": "G-A1-12",
   "track": "gaoji",
-  "no": 33,
+  "no": 36,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1180,9 +1309,9 @@ window.LESSONS = [
   "action": "参考资料《历代愿望》有些父母将他们的孩子带到耶稣面前，希望祂可以祝福第449-454页自己的孩子。"
  },
  {
-  "id": "A1-13",
+  "id": "G-A1-13",
   "track": "gaoji",
-  "no": 34,
+  "no": 37,
   "quarter": "高级学课A年第1季",
   "qcode": "A1",
   "qemoji": "🌈",
@@ -1203,9 +1332,9 @@ window.LESSONS = [
   "action": "参考资料《历代愿望》第撒该是一位身材矮小的人，还是一个税吏。"
  },
  {
-  "id": "A2-1",
+  "id": "G-A2-1",
   "track": "gaoji",
-  "no": 35,
+  "no": 38,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1226,9 +1355,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-2",
+  "id": "G-A2-2",
   "track": "gaoji",
-  "no": 36,
+  "no": 39,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1249,9 +1378,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-3",
+  "id": "G-A2-3",
   "track": "gaoji",
-  "no": 37,
+  "no": 40,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1272,9 +1401,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-4",
+  "id": "G-A2-4",
   "track": "gaoji",
-  "no": 38,
+  "no": 41,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1295,9 +1424,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-5",
+  "id": "G-A2-5",
   "track": "gaoji",
-  "no": 39,
+  "no": 42,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1318,9 +1447,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-6",
+  "id": "G-A2-6",
   "track": "gaoji",
-  "no": 40,
+  "no": 43,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1341,9 +1470,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-7",
+  "id": "G-A2-7",
   "track": "gaoji",
-  "no": 41,
+  "no": 44,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1364,9 +1493,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-8",
+  "id": "G-A2-8",
   "track": "gaoji",
-  "no": 42,
+  "no": 45,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1387,9 +1516,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-9",
+  "id": "G-A2-9",
   "track": "gaoji",
-  "no": 43,
+  "no": 46,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1410,9 +1539,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-10",
+  "id": "G-A2-10",
   "track": "gaoji",
-  "no": 44,
+  "no": 47,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1433,9 +1562,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-11",
+  "id": "G-A2-11",
   "track": "gaoji",
-  "no": 45,
+  "no": 48,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1456,9 +1585,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-12",
+  "id": "G-A2-12",
   "track": "gaoji",
-  "no": 46,
+  "no": 49,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1479,9 +1608,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A2-13",
+  "id": "G-A2-13",
   "track": "gaoji",
-  "no": 47,
+  "no": 50,
   "quarter": "高级学课A年第2季",
   "qcode": "A2",
   "qemoji": "🌞",
@@ -1502,9 +1631,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-1",
+  "id": "G-A3-1",
   "track": "gaoji",
-  "no": 48,
+  "no": 51,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1525,9 +1654,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-2",
+  "id": "G-A3-2",
   "track": "gaoji",
-  "no": 49,
+  "no": 52,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1548,9 +1677,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-3",
+  "id": "G-A3-3",
   "track": "gaoji",
-  "no": 50,
+  "no": 53,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1571,9 +1700,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-4",
+  "id": "G-A3-4",
   "track": "gaoji",
-  "no": 51,
+  "no": 54,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1594,9 +1723,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-5",
+  "id": "G-A3-5",
   "track": "gaoji",
-  "no": 52,
+  "no": 55,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1617,9 +1746,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-6",
+  "id": "G-A3-6",
   "track": "gaoji",
-  "no": 53,
+  "no": 56,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1640,9 +1769,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-7",
+  "id": "G-A3-7",
   "track": "gaoji",
-  "no": 54,
+  "no": 57,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1663,9 +1792,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-8",
+  "id": "G-A3-8",
   "track": "gaoji",
-  "no": 55,
+  "no": 58,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1686,9 +1815,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-9",
+  "id": "G-A3-9",
   "track": "gaoji",
-  "no": 56,
+  "no": 59,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1709,9 +1838,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-10",
+  "id": "G-A3-10",
   "track": "gaoji",
-  "no": 57,
+  "no": 60,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1732,9 +1861,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-11",
+  "id": "G-A3-11",
   "track": "gaoji",
-  "no": 58,
+  "no": 61,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1755,9 +1884,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-12",
+  "id": "G-A3-12",
   "track": "gaoji",
-  "no": 59,
+  "no": 62,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1778,9 +1907,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A3-13",
+  "id": "G-A3-13",
   "track": "gaoji",
-  "no": 60,
+  "no": 63,
   "quarter": "高级学课A年第3季",
   "qcode": "A3",
   "qemoji": "🍂",
@@ -1801,9 +1930,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-1",
+  "id": "G-A4-1",
   "track": "gaoji",
-  "no": 61,
+  "no": 64,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -1824,9 +1953,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-2",
+  "id": "G-A4-2",
   "track": "gaoji",
-  "no": 62,
+  "no": 65,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -1847,9 +1976,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-3",
+  "id": "G-A4-3",
   "track": "gaoji",
-  "no": 63,
+  "no": 66,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -1870,9 +1999,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-4",
+  "id": "G-A4-4",
   "track": "gaoji",
-  "no": 64,
+  "no": 67,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -1893,9 +2022,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-5",
+  "id": "G-A4-5",
   "track": "gaoji",
-  "no": 65,
+  "no": 68,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -1916,9 +2045,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-6",
+  "id": "G-A4-6",
   "track": "gaoji",
-  "no": 66,
+  "no": 69,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -1939,9 +2068,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-7",
+  "id": "G-A4-7",
   "track": "gaoji",
-  "no": 67,
+  "no": 70,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -1962,9 +2091,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-8",
+  "id": "G-A4-8",
   "track": "gaoji",
-  "no": 68,
+  "no": 71,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -1985,9 +2114,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-9",
+  "id": "G-A4-9",
   "track": "gaoji",
-  "no": 69,
+  "no": 72,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -2008,9 +2137,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-10",
+  "id": "G-A4-10",
   "track": "gaoji",
-  "no": 70,
+  "no": 73,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -2031,9 +2160,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-11",
+  "id": "G-A4-11",
   "track": "gaoji",
-  "no": 71,
+  "no": 74,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -2054,9 +2183,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-12",
+  "id": "G-A4-12",
   "track": "gaoji",
-  "no": 72,
+  "no": 75,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -2077,9 +2206,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "A4-13",
+  "id": "G-A4-13",
   "track": "gaoji",
-  "no": 73,
+  "no": 76,
   "quarter": "高级学课A年第4季",
   "qcode": "A4",
   "qemoji": "❄️",
@@ -2100,9 +2229,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C2-1",
+  "id": "G-C2-1",
   "track": "gaoji",
-  "no": 74,
+  "no": 77,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2123,9 +2252,9 @@ window.LESSONS = [
   "action": "《使徒行述》143-151页保罗和巴拿巴在路司得城被上帝感动去医治一名天生瘸腿的人。"
  },
  {
-  "id": "C2-2",
+  "id": "G-C2-2",
   "track": "gaoji",
-  "no": 75,
+  "no": 78,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2146,9 +2275,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C2-3",
+  "id": "G-C2-3",
   "track": "gaoji",
-  "no": 76,
+  "no": 79,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2169,9 +2298,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C2-4",
+  "id": "G-C2-4",
   "track": "gaoji",
-  "no": 77,
+  "no": 80,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2192,9 +2321,9 @@ window.LESSONS = [
   "action": "使徒行述322、323页保罗和他的朋友在特罗亚。"
  },
  {
-  "id": "C2-5",
+  "id": "G-C2-5",
   "track": "gaoji",
-  "no": 78,
+  "no": 81,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2215,9 +2344,9 @@ window.LESSONS = [
   "action": "出20:8-11《先祖与先知》16-18页上帝完成了祂创造世界的工作后设立了安息日。"
  },
  {
-  "id": "C2-6",
+  "id": "G-C2-6",
   "track": "gaoji",
-  "no": 79,
+  "no": 82,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2238,9 +2367,9 @@ window.LESSONS = [
   "action": "《先知与君王》438-441页但以理在他的工作和敬拜时，都对上帝十分忠心。"
  },
  {
-  "id": "C2-7",
+  "id": "G-C2-7",
   "track": "gaoji",
-  "no": 80,
+  "no": 83,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2261,9 +2390,9 @@ window.LESSONS = [
   "action": "《先知与君王》441,442页那些密谋陷害但以理的人偷偷跑到他家去查看他是否仍旧一日三次向他的上帝祷告。"
  },
  {
-  "id": "C2-8",
+  "id": "G-C2-8",
   "track": "gaoji",
-  "no": 81,
+  "no": 84,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2284,9 +2413,9 @@ window.LESSONS = [
   "action": "《先知与君王》441-442页当但以理被救出狮子坑后，他并没有受到任何伤害。"
  },
  {
-  "id": "C2-9",
+  "id": "G-C2-9",
   "track": "gaoji",
-  "no": 82,
+  "no": 85,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2307,9 +2436,9 @@ window.LESSONS = [
   "action": "《历代愿望》89-107页约翰在靠近约旦河的旷野传道，他告诉人们必须悔改来信从主。"
  },
  {
-  "id": "C2-10",
+  "id": "G-C2-10",
   "track": "gaoji",
-  "no": 83,
+  "no": 86,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2330,9 +2459,9 @@ window.LESSONS = [
   "action": "《历代愿望》504-511页一名律法师问耶稣：“夫子，我要怎么做才能得永生？"
  },
  {
-  "id": "C2-11",
+  "id": "G-C2-11",
   "track": "gaoji",
-  "no": 84,
+  "no": 87,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2353,9 +2482,9 @@ window.LESSONS = [
   "action": "《天路》164-176页有一个人，有两个儿子。"
  },
  {
-  "id": "C2-12",
+  "id": "G-C2-12",
   "track": "gaoji",
-  "no": 85,
+  "no": 88,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2376,9 +2505,9 @@ window.LESSONS = [
   "action": "《天路》362-376页十个童女拿着她们的灯去迎接新郎。"
  },
  {
-  "id": "C2-13",
+  "id": "G-C2-13",
   "track": "gaoji",
-  "no": 86,
+  "no": 89,
   "quarter": "高级学课C年第2季",
   "qcode": "C2",
   "qemoji": "🌻",
@@ -2399,9 +2528,9 @@ window.LESSONS = [
   "action": "《历代愿望》647-652页当耶稣荣耀降临时，祂会把世上的人分成两类——“山羊”和“绵羊”。"
  },
  {
-  "id": "C3-1",
+  "id": "G-C3-1",
   "track": "gaoji",
-  "no": 87,
+  "no": 90,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2422,9 +2551,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-2",
+  "id": "G-C3-2",
   "track": "gaoji",
-  "no": 88,
+  "no": 91,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2445,9 +2574,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-3",
+  "id": "G-C3-3",
   "track": "gaoji",
-  "no": 89,
+  "no": 92,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2468,9 +2597,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-4",
+  "id": "G-C3-4",
   "track": "gaoji",
-  "no": 90,
+  "no": 93,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2491,9 +2620,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-5",
+  "id": "G-C3-5",
   "track": "gaoji",
-  "no": 91,
+  "no": 94,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2514,9 +2643,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-6",
+  "id": "G-C3-6",
   "track": "gaoji",
-  "no": 92,
+  "no": 95,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2537,9 +2666,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-7",
+  "id": "G-C3-7",
   "track": "gaoji",
-  "no": 93,
+  "no": 96,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2560,9 +2689,9 @@ window.LESSONS = [
   "action": "王下6:1-7《先知与君王》202、先知学校的学者们需要一个更大的地方。"
  },
  {
-  "id": "C3-8",
+  "id": "G-C3-8",
   "track": "gaoji",
-  "no": 94,
+  "no": 97,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2583,9 +2712,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-9",
+  "id": "G-C3-9",
   "track": "gaoji",
-  "no": 95,
+  "no": 98,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2606,9 +2735,9 @@ window.LESSONS = [
   "action": "《先祖与先知》185-189页雅各爱约瑟比爱其它的儿子们更多。"
  },
  {
-  "id": "C3-10",
+  "id": "G-C3-10",
   "track": "gaoji",
-  "no": 96,
+  "no": 99,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2629,9 +2758,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-11",
+  "id": "G-C3-11",
   "track": "gaoji",
-  "no": 97,
+  "no": 100,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2652,9 +2781,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C3-12",
+  "id": "G-C3-12",
   "track": "gaoji",
-  "no": 98,
+  "no": 101,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2675,9 +2804,9 @@ window.LESSONS = [
   "action": "参考资料创42章至45:15；就像约瑟所预言的一样，埃及地有七年丰收。"
  },
  {
-  "id": "C3-13",
+  "id": "G-C3-13",
   "track": "gaoji",
-  "no": 99,
+  "no": 102,
   "quarter": "高级学课C年第3季",
   "qcode": "C3",
   "qemoji": "🍁",
@@ -2698,9 +2827,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C4-1",
+  "id": "G-C4-1",
   "track": "gaoji",
-  "no": 100,
+  "no": 103,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2721,9 +2850,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C4-2",
+  "id": "G-C4-2",
   "track": "gaoji",
-  "no": 101,
+  "no": 104,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2744,9 +2873,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C4-3",
+  "id": "G-C4-3",
   "track": "gaoji",
-  "no": 102,
+  "no": 105,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2767,9 +2896,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C4-4",
+  "id": "G-C4-4",
   "track": "gaoji",
-  "no": 103,
+  "no": 106,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2790,9 +2919,9 @@ window.LESSONS = [
   "action": "当保罗被囚于罗马监狱，很多信徒都离开他，但是提摩太依然充满信心地在以弗所教会做服侍工作。"
  },
  {
-  "id": "C4-5",
+  "id": "G-C4-5",
   "track": "gaoji",
-  "no": 104,
+  "no": 107,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2813,9 +2942,9 @@ window.LESSONS = [
   "action": "《先知与君王》270-以赛亚在异象中看见上帝坐在圣殿的宝座上，四周有天278页使高唱“圣哉！"
  },
  {
-  "id": "C4-6",
+  "id": "G-C4-6",
   "track": "gaoji",
-  "no": 105,
+  "no": 108,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2836,9 +2965,9 @@ window.LESSONS = [
   "action": "《先知与君王》270-希西家患病，上帝派先知以赛亚去告诉他的死期临近278页了。"
  },
  {
-  "id": "C4-7",
+  "id": "G-C4-7",
   "track": "gaoji",
-  "no": 106,
+  "no": 109,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2859,9 +2988,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C4-8",
+  "id": "G-C4-8",
   "track": "gaoji",
-  "no": 107,
+  "no": 110,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2882,9 +3011,9 @@ window.LESSONS = [
   "action": "525、532-537页尼希米是一个流亡的希伯来人。"
  },
  {
-  "id": "C4-9",
+  "id": "G-C4-9",
   "track": "gaoji",
-  "no": 108,
+  "no": 111,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2905,9 +3034,9 @@ window.LESSONS = [
   "action": "476、477、636、637、旧约圣经记录了有关耶稣在世上出生及生活的预言，而848、849页新约记录了它们的应验。"
  },
  {
-  "id": "C4-10",
+  "id": "G-C4-10",
   "track": "gaoji",
-  "no": 109,
+  "no": 112,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2928,9 +3057,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C4-11",
+  "id": "G-C4-11",
   "track": "gaoji",
-  "no": 110,
+  "no": 113,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2951,9 +3080,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "C4-12",
+  "id": "G-C4-12",
   "track": "gaoji",
-  "no": 111,
+  "no": 114,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2974,9 +3103,9 @@ window.LESSONS = [
   "action": "夜空下，一群牧羊人正在旷野看守羊群。"
  },
  {
-  "id": "C4-13",
+  "id": "G-C4-13",
   "track": "gaoji",
-  "no": 112,
+  "no": 115,
   "quarter": "高级学课C年第4季",
   "qcode": "C4",
   "qemoji": "🎄",
@@ -2997,9 +3126,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D1-1",
+  "id": "G-D1-1",
   "track": "gaoji",
-  "no": 113,
+  "no": 116,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3020,9 +3149,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D1-2",
+  "id": "G-D1-2",
   "track": "gaoji",
-  "no": 114,
+  "no": 117,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3043,9 +3172,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D1-3",
+  "id": "G-D1-3",
   "track": "gaoji",
-  "no": 115,
+  "no": 118,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3066,9 +3195,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D1-4",
+  "id": "G-D1-4",
   "track": "gaoji",
-  "no": 116,
+  "no": 119,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3089,9 +3218,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D1-5",
+  "id": "G-D1-5",
   "track": "gaoji",
-  "no": 117,
+  "no": 120,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3112,9 +3241,9 @@ window.LESSONS = [
   "action": "路5:17-26耶稣讲了一个牧羊人的比喻。"
  },
  {
-  "id": "D1-6",
+  "id": "G-D1-6",
   "track": "gaoji",
-  "no": 118,
+  "no": 121,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3135,9 +3264,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D1-7",
+  "id": "G-D1-7",
   "track": "gaoji",
-  "no": 119,
+  "no": 122,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3158,9 +3287,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D1-8",
+  "id": "G-D1-8",
   "track": "gaoji",
-  "no": 120,
+  "no": 123,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3181,9 +3310,9 @@ window.LESSONS = [
   "action": "安息日是上帝爱世人的一份礼物。"
  },
  {
-  "id": "D1-9",
+  "id": "G-D1-9",
   "track": "gaoji",
-  "no": 121,
+  "no": 124,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3204,9 +3333,9 @@ window.LESSONS = [
   "action": "太26:36-56可14:3-50耶稣和门徒去客西马尼园祷告，耶稣非常需要力量去路22:39-53面对将要发生在衪身上的事。衪叫门徒与衪一起祷告，但参考资料《历代愿望》他们非常疲倦睡着了。耶稣独自挣扎祈祷，衪承受着巨大第章，695-706页的痛苦，因为世界上所有的罪都压在衪身上，但衪选择了必须要完成此事，为要拯救我们每一个人。当衪被其中一"
  },
  {
-  "id": "D1-10",
+  "id": "G-D1-10",
   "track": "gaoji",
-  "no": 122,
+  "no": 125,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3227,9 +3356,9 @@ window.LESSONS = [
   "action": "约9参考资料《历代愿望》耶稣在客西马尼园被捕后，被带到亚那面前，亚那是第章，477-483页大祭司该亚法的岳父。"
  },
  {
-  "id": "D1-11",
+  "id": "G-D1-11",
   "track": "gaoji",
-  "no": 123,
+  "no": 126,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3250,9 +3379,9 @@ window.LESSONS = [
   "action": "经文太27:15-66；"
  },
  {
-  "id": "D1-12",
+  "id": "G-D1-12",
   "track": "gaoji",
-  "no": 124,
+  "no": 127,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3273,9 +3402,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D1-13",
+  "id": "G-D1-13",
   "track": "gaoji",
-  "no": 125,
+  "no": 128,
   "quarter": "高级学课D年第1季",
   "qcode": "D1",
   "qemoji": "🌱",
@@ -3296,9 +3425,9 @@ window.LESSONS = [
   "action": "路24:50-53徒1:1-12当耶稣复活后，祂与门徒们一起生活了40天，鼓励他参考资料《历代愿望》们，又要他们在世上为祂作见证。他们一起前往橄榄山，第847-854页耶稣就在他们眼前升天而去。两位天使来到门徒面前，告诉他们，他们见耶稣怎样往天上去，还要见祂怎样再来。这是关于敬拜的教导当我们全心渴望与耶稣在一起时，我们就是敬拜祂"
  },
  {
-  "id": "D2-1",
+  "id": "G-D2-1",
   "track": "gaoji",
-  "no": 126,
+  "no": 129,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3319,9 +3448,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-2",
+  "id": "G-D2-2",
   "track": "gaoji",
-  "no": 127,
+  "no": 130,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3342,9 +3471,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-3",
+  "id": "G-D2-3",
   "track": "gaoji",
-  "no": 128,
+  "no": 131,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3365,9 +3494,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-4",
+  "id": "G-D2-4",
   "track": "gaoji",
-  "no": 129,
+  "no": 132,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3388,9 +3517,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-5",
+  "id": "G-D2-5",
   "track": "gaoji",
-  "no": 130,
+  "no": 133,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3411,9 +3540,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-6",
+  "id": "G-D2-6",
   "track": "gaoji",
-  "no": 131,
+  "no": 134,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3434,9 +3563,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-7",
+  "id": "G-D2-7",
   "track": "gaoji",
-  "no": 132,
+  "no": 135,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3457,9 +3586,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-8",
+  "id": "G-D2-8",
   "track": "gaoji",
-  "no": 133,
+  "no": 136,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3480,9 +3609,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-9",
+  "id": "G-D2-9",
   "track": "gaoji",
-  "no": 134,
+  "no": 137,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3503,9 +3632,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-10",
+  "id": "G-D2-10",
   "track": "gaoji",
-  "no": 135,
+  "no": 138,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3526,9 +3655,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-11",
+  "id": "G-D2-11",
   "track": "gaoji",
-  "no": 136,
+  "no": 139,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3549,9 +3678,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-12",
+  "id": "G-D2-12",
   "track": "gaoji",
-  "no": 137,
+  "no": 140,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3572,9 +3701,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D2-13",
+  "id": "G-D2-13",
   "track": "gaoji",
-  "no": 138,
+  "no": 141,
   "quarter": "高级学课D年第2季",
   "qcode": "D2",
   "qemoji": "🐬",
@@ -3595,9 +3724,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-1",
+  "id": "G-D3-1",
   "track": "gaoji",
-  "no": 139,
+  "no": 142,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3618,9 +3747,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-2",
+  "id": "G-D3-2",
   "track": "gaoji",
-  "no": 140,
+  "no": 143,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3641,9 +3770,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-3",
+  "id": "G-D3-3",
   "track": "gaoji",
-  "no": 141,
+  "no": 144,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3664,9 +3793,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-4",
+  "id": "G-D3-4",
   "track": "gaoji",
-  "no": 142,
+  "no": 145,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3687,9 +3816,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-5",
+  "id": "G-D3-5",
   "track": "gaoji",
-  "no": 143,
+  "no": 146,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3710,9 +3839,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-6",
+  "id": "G-D3-6",
   "track": "gaoji",
-  "no": 144,
+  "no": 147,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3733,9 +3862,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-7",
+  "id": "G-D3-7",
   "track": "gaoji",
-  "no": 145,
+  "no": 148,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3756,9 +3885,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-8",
+  "id": "G-D3-8",
   "track": "gaoji",
-  "no": 146,
+  "no": 149,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3779,9 +3908,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-9",
+  "id": "G-D3-9",
   "track": "gaoji",
-  "no": 147,
+  "no": 150,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3802,9 +3931,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-10",
+  "id": "G-D3-10",
   "track": "gaoji",
-  "no": 148,
+  "no": 151,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3825,9 +3954,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-11",
+  "id": "G-D3-11",
   "track": "gaoji",
-  "no": 149,
+  "no": 152,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3848,9 +3977,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-12",
+  "id": "G-D3-12",
   "track": "gaoji",
-  "no": 150,
+  "no": 153,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3871,9 +4000,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D3-13",
+  "id": "G-D3-13",
   "track": "gaoji",
-  "no": 151,
+  "no": 154,
   "quarter": "高级学课D年第3季",
   "qcode": "D3",
   "qemoji": "🍁",
@@ -3894,9 +4023,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-1",
+  "id": "G-D4-1",
   "track": "gaoji",
-  "no": 152,
+  "no": 155,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -3917,9 +4046,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-2",
+  "id": "G-D4-2",
   "track": "gaoji",
-  "no": 153,
+  "no": 156,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -3940,9 +4069,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-3",
+  "id": "G-D4-3",
   "track": "gaoji",
-  "no": 154,
+  "no": 157,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -3963,9 +4092,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-4",
+  "id": "G-D4-4",
   "track": "gaoji",
-  "no": 155,
+  "no": 158,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -3986,9 +4115,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-5",
+  "id": "G-D4-5",
   "track": "gaoji",
-  "no": 156,
+  "no": 159,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -4009,9 +4138,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-6",
+  "id": "G-D4-6",
   "track": "gaoji",
-  "no": 157,
+  "no": 160,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -4032,9 +4161,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-7",
+  "id": "G-D4-7",
   "track": "gaoji",
-  "no": 158,
+  "no": 161,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -4055,9 +4184,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-8",
+  "id": "G-D4-8",
   "track": "gaoji",
-  "no": 159,
+  "no": 162,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -4078,9 +4207,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-9",
+  "id": "G-D4-9",
   "track": "gaoji",
-  "no": 160,
+  "no": 163,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -4101,9 +4230,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-10",
+  "id": "G-D4-10",
   "track": "gaoji",
-  "no": 161,
+  "no": 164,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -4124,9 +4253,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-11",
+  "id": "G-D4-11",
   "track": "gaoji",
-  "no": 162,
+  "no": 165,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -4147,9 +4276,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-12",
+  "id": "G-D4-12",
   "track": "gaoji",
-  "no": 163,
+  "no": 166,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
@@ -4170,9 +4299,9 @@ window.LESSONS = [
   "action": "和同學分享今天學到的故事。"
  },
  {
-  "id": "D4-13",
+  "id": "G-D4-13",
   "track": "gaoji",
-  "no": 164,
+  "no": 167,
   "quarter": "高级学课D年第4季",
   "qcode": "D4",
   "qemoji": "🎄",
