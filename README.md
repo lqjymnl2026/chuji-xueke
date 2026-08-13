@@ -20,8 +20,8 @@
 或本地預覽：
 ```bash
 cd 初級學課互動
-python3 -m http.server 8777
-# 開啟 http://localhost:8777
+node server.js
+# 開啟 http://localhost:8777（含 Edge 神經語音 /tts 合成）
 ```
 
 ## 檔案結構
@@ -34,6 +34,13 @@ python3 -m http.server 8777
 ├── data/lessons.js   21課全部資料（含故事與題目）
 └── raw/              教師版 PDF 提取的原始 Markdown
 ```
+
+
+## 🔊 Edge 神經語音（曉曉/雲希）
+右下角 **🎙️ 語音設置** 可選：曉曉（溫柔女聲）/ 雲希（陽光男聲）/ 曉伊（卡通活潑）/ 自動。
+
+- **本地預覽**：用 `node server.js` 啟動，會自動走 Edge 神經語音伺服器合成（真聲，推薦）。
+- **線上（GitHub Pages）**：自動改用瀏覽器語音；用 **Edge 瀏覽器** 開啟時，曉曉/雲希 神經音色可直接用。
 
 ## 技術
 - 純前端，零依賴，離線可用
