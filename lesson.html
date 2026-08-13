@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>課程 - 學課互動樂園</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ltop" id="ltop">
+    <a class="back" href="index.html">← 返回樂園</a><br>
+    <span class="qchip" id="qchip"></span>
+    <h1><span class="bigico" id="lico"></span><span id="ltitle"></span></h1>
+  </div>
+
+  <div class="lbody">
+    <div class="card">
+      <h3>📖 聖經出處</h3>
+      <p class="scripture" id="ljingwen"></p>
+    </div>
+
+    <div class="card">
+      <h3>💌 本課信息</h3>
+      <span class="message-badge" id="lxinxi"></span>
+    </div>
+
+    <div class="card">
+      <h3>📚 故事時間 <span class="chip" style="background:var(--blue)">第 1 關</span></h3>
+      <div class="toolbar">
+        <button class="btn play" id="playAll">🔊 全部朗讀</button>
+        <button class="btn gray" id="stopAll">⏹ 停止</button>
+      </div>
+      <div id="story"></div>
+      <div style="margin-top:12px;text-align:center">
+        <button class="btn star" id="doneStory">⭐ 我聽完故事了！</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>💎 存心節 <span class="chip" style="background:var(--orange)">第 2 關</span></h3>
+      <div class="verse-box">
+        <div class="q">✦ 本課存心節 ✦</div>
+        <div class="v" id="lcunxin"></div>
+        <div class="ref" id="lref"></div>
+      </div>
+      <div class="toolbar" style="margin-top:12px">
+        <button class="btn play" id="sayVerse">🔊 跟我讀</button>
+        <button class="btn star" id="doneVerse">⭐ 我記住存心節了！</button>
+      </div>
+    </div>
+
+    <div class="card" id="quizCard">
+      <h3>🎯 互動問答 <span class="chip" style="background:var(--green)">第 3 關</span></h3>
+      <div id="quiz"></div>
+      <div style="text-align:center;margin-top:8px;font-size:13px;color:var(--sub)" id="quizHint">答對全部問題，就可以得到 ⭐</div>
+    </div>
+
+    <div class="card" id="matchCard">
+      <h3>🔗 故事配對 <span class="chip" style="background:var(--green)">第 3 關</span></h3>
+      <p class="scripture" style="margin-bottom:12px">點一張「故事片段」，再點它屬於哪一課，配對成功會連線喔！</p>
+      <div id="matchBox"></div>
+      <div style="text-align:center;margin-top:8px;font-size:13px;color:var(--sub)">全部配對成功，就可以得到 ⭐</div>
+    </div>
+
+    <div class="card">
+      <h3>💖 生活回應</h3>
+      <div class="action-box" id="laction"></div>
+    </div>
+
+    <div class="card">
+      <h3>🎨 延伸遊戲</h3>
+      <div class="toolbar">
+        <a class="btn play" id="paintLink" href="coloring.html">🎨 去塗色</a>
+        <button class="btn green" id="sayAll2">🔊 再聽一次</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>🏆 我的星星</h3>
+      <div class="star-row" id="starRow">
+        <div class="star-box" id="stStory"><span class="sico">⭐</span>故事</div>
+        <div class="star-box" id="stVerse"><span class="sico">⭐</span>存心節</div>
+        <div class="star-box" id="stThird"><span class="sico">⭐</span>第三關</div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:18px">
+      <a class="btn green" id="nextBtn" href="index.html">✅ 完成！回到樂園</a>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+<script src="data/all_lessons.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
