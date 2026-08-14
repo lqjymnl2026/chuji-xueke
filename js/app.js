@@ -73,13 +73,10 @@
     return m[id] || "xiaoxiao";
   }
 
-  /* 服务器 TTS（本地预览 node server.js 才有）*/
-  var serverTTS = null; // null=未探測, true/false
+  /* 语音：使用浏览器内置 TTS（GitHub Pages 无 /tts 后端，直接浏览器朗读，稳定不卡）*/
+  var serverTTS = false;
   function probeServerTTS(){
-    if(serverTTS !== null) return Promise.resolve(serverTTS);
-    return fetch("/tts?text=%E6%B5%8B&voice=xiaoxiao")
-      .then(function(r){ serverTTS = r.ok; return serverTTS; })
-      .catch(function(){ serverTTS = false; return false; });
+    return Promise.resolve(false);
   }
 
   var audioEl = null;
